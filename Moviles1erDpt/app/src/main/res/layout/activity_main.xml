@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pct_1"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_pct1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p1" />
+    <Button
+        android:id="@+id/btn_pct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p2" />
+    <Button
+        android:id="@+id/btn_pct3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p3" />
+    <Button
+        android:id="@+id/btn_pct3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p3.1" />
+    <Button
+        android:id="@+id/btn_pct4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p4" />
+    <Button
+        android:id="@+id/btn_pct4_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p4.1" />
+
+</LinearLayout>
