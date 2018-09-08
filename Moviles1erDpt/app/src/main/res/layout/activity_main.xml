@@ -20,6 +20,7 @@
         android:id="@+id/btn_pct1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="btn1"
         android:text="@string/p1" />
     <Button
         android:id="@+id/btn_pct2"

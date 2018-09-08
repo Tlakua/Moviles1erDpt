@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Practicas.Pct_1">
 
-</android.support.constraint.ConstraintLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="Primera Practica"/>
+
+    <EditText
+        android:id="@+id/et_1PCT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Primer Numero"/>
+
+    <EditText
+        android:id="@+id/et_2PCT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Segundo Numero"/>
+
+    <Button
+        android:id="@+id/btn_1PCT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btn_1"
+        android:text="Suma"/>
+
+    <TextView
+        android:id="@+id/tv_1PCT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

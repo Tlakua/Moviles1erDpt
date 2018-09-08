@@ -7,6 +7,11 @@ import android.view.View;
 import android.widget.Button;
 
 import com.codequark.www.moviles1erdpt.Practicas.Pct_1;
+import com.codequark.www.moviles1erdpt.Practicas.Pct_2;
+import com.codequark.www.moviles1erdpt.Practicas.Pct_3;
+import com.codequark.www.moviles1erdpt.Practicas.Pct_3_1;
+import com.codequark.www.moviles1erdpt.Practicas.Pct_4;
+import com.codequark.www.moviles1erdpt.Practicas.Pct_4_1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,17 +39,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btn2(View v){
+        startActivity(new Intent(this, Pct_2.class));
     }
 
     public void btn3(View v){
+        startActivity(new Intent(this, Pct_3.class));
     }
 
     public void btn3_1(View v){
+        startActivity(new Intent(this, Pct_3_1.class));
     }
 
     public void btn4(View v){
+        startActivity(new Intent(this, Pct_4.class));
     }
 
     public void btn4_1(View v){
+        startActivity(new Intent(this, Pct_4_1.class));
     }
 }
