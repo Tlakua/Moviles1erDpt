@@ -26,26 +26,26 @@
         android:id="@+id/btn_pct2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="btn2"
         android:text="@string/p2" />
+
     <Button
         android:id="@+id/btn_pct3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/p3" />
-    <Button
-        android:id="@+id/btn_pct3_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:onClick="btn3"
         android:text="@string/p3.1" />
     <Button
         android:id="@+id/btn_pct4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="btn4"
         android:text="@string/p4" />
     <Button
         android:id="@+id/btn_pct4_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="btn4_1"
         android:text="@string/p4.1" />
 
 </LinearLayout>

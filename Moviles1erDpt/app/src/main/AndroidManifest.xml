@@ -19,7 +19,6 @@
         <activity android:name=".Practicas.Pct_1" />
         <activity android:name=".Practicas.Pct_2" />
         <activity android:name=".Practicas.Pct_3" />
-        <activity android:name=".Practicas.Pct_3_1" />
         <activity android:name=".Practicas.Pct_4" />
         <activity android:name=".Practicas.Pct_4_1"></activity>
     </application>
