@@ -14,8 +14,8 @@ public class Pct_2 extends AppCompatActivity {
     EditText et_1;
     EditText et_2;
     Button btn_1;
-    String usrReg = "";
-    String passReg = "";
+    String usrReg = "admin";
+    String passReg = "1234";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
