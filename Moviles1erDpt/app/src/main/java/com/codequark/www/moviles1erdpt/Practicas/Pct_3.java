@@ -13,21 +13,20 @@ public class Pct_3 extends AppCompatActivity {
     TextView tv_por;
     TextView tv_fecha;
     TextView tv_noticia;
+    int i = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pct_3);
-
-        inicializarValores();
-    }
-
-    public void inicializarValores(){
         tv_nomNot = (TextView) findViewById(R.id.tv_nomNot);
         tv_por = (TextView) findViewById(R.id.tv_por);
         tv_fecha = (TextView) findViewById(R.id.tv_fecha);
         tv_noticia = (TextView) findViewById(R.id.tv_noticia);
+        inicializarValores();
+    }
 
+    public void inicializarValores(){
         tv_nomNot.setText("Noticia num 1");
         tv_por.setText("publicador num 1");
         tv_fecha.setText("fecha 1");
@@ -35,10 +34,6 @@ public class Pct_3 extends AppCompatActivity {
     }
 
     public void cambiarValores(){
-        tv_nomNot = (TextView) findViewById(R.id.tv_nomNot);
-        tv_por = (TextView) findViewById(R.id.tv_por);
-        tv_fecha = (TextView) findViewById(R.id.tv_fecha);
-        tv_noticia = (TextView) findViewById(R.id.tv_noticia);
 
         tv_nomNot.setText("Noticia num 2");
         tv_por.setText("publicador num 2");
@@ -47,13 +42,12 @@ public class Pct_3 extends AppCompatActivity {
     }
 
     public void btn_cambiar(View v){
-        int i = 0;
         if (i == 0){
             cambiarValores();
-            i =+1;
-        }if (i == 1){
+            i += 1;
+        }else{
             inicializarValores();
-            i =- 1;
+            i -= 1;
         }
     }
 }

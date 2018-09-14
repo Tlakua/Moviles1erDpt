@@ -11,7 +11,6 @@ import com.codequark.www.moviles1erdpt.R;
 
 public class Pct_1 extends AppCompatActivity {
 
-    Button btn_1;
     EditText et_1;
     EditText et_2;
     TextView tv_1;
@@ -21,7 +20,6 @@ public class Pct_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pct_1);
 
-        btn_1 = (Button) findViewById(R.id.btn_1PCT1);
         et_1 = (EditText) findViewById(R.id.et_1PCT1);
         et_2 = (EditText) findViewById(R.id.et_2PCT1);
         tv_1 = (TextView) findViewById(R.id.tv_1PCT1);

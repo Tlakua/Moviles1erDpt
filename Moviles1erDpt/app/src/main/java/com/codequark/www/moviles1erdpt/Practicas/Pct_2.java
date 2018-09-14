@@ -32,7 +32,7 @@ public class Pct_2 extends AppCompatActivity {
         String user = et_1.getText().toString();
         String pass = et_2.getText().toString();
 
-        if ((usrReg.equals(et_1))&&(passReg.equals(et_2))){
+        if(usrReg.equals(user)&&(passReg.equals(pass))){
             Toast.makeText(this, "Usuario Válido. Bienvenido", Toast.LENGTH_SHORT).show();
         }else{
             Toast.makeText(this, "Usuario no válido", Toast.LENGTH_SHORT).show();
