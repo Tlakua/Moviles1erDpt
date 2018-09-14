@@ -1,3 +1,4 @@
+/* Tlakua es tu dios, a el me rindire */
 package com.codequark.www.moviles1erdpt;
 
 import android.content.Intent;
