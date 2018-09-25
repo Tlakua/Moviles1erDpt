@@ -10,45 +10,29 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Sleccione Departamental"
+        android:layout_marginTop="10sp"/>
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pct_1"
-        android:layout_marginTop="20sp"
-        android:layout_marginBottom="10sp"
-        android:textStyle="bold" />
-    <Button
-        android:id="@+id/btn_pct1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="btn1"
-        android:text="@string/p1" />
-    <Button
-        android:id="@+id/btn_pct2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="btn2"
-        android:text="@string/p2" />
+        android:text="1er Dept"
+        android:id="@+id/btn_men1"
+        android:layout_marginTop="45sp"/>
 
     <Button
-        android:id="@+id/btn_pct3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btn3"
-        android:text="@string/p3.1" />
+        android:text="2do Dept"
+        android:id="@+id/btn_men2"
+        android:layout_marginTop="15sp"/>
+
     <Button
-        android:id="@+id/btn_pct4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btn4"
-        android:text="@string/p4" />
-    <Button
-        android:id="@+id/btn_pct4_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="btn4_1"
-        android:text="@string/p4.1" />
+        android:text="3er Dept"
+         android:id="@+id/btn_men3"
+        android:layout_marginTop="15sp" />
 
 </LinearLayout>

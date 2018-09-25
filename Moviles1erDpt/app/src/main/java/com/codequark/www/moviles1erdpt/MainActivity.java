@@ -7,48 +7,46 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.codequark.www.moviles1erdpt.Practicas.Pct_1;
-import com.codequark.www.moviles1erdpt.Practicas.Pct_2;
-import com.codequark.www.moviles1erdpt.Practicas.Pct_3;
-import com.codequark.www.moviles1erdpt.Practicas.Pct_4;
-import com.codequark.www.moviles1erdpt.Practicas.Pct_4_1;
+import com.codequark.www.moviles1erdpt.menus.Dpt_1;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button p1;
-    Button p2;
-    Button p3;
-    Button p4;
-    Button p4_1;
+    Button btn_men1;
+    Button btn_men2;
+    Button btn_men3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        p1 = (Button) findViewById(R.id.btn_pct1);
-        p2 = (Button) findViewById(R.id.btn_pct2);
-        p3 = (Button) findViewById(R.id.btn_pct3);
-        p4 = (Button) findViewById(R.id.btn_pct4);
-        p4_1 = (Button) findViewById(R.id.btn_pct4_2);
+        inicializarVariables();
+        accionButtons();
     }
 
-    public void btn1(View v){
-        startActivity(new Intent(this, Pct_1.class));
+    private void inicializarVariables(){
+        btn_men1 = (Button) findViewById(R.id.btn_men1);
+        btn_men2 = (Button) findViewById(R.id.btn_men2);
+        btn_men3 = (Button) findViewById(R.id.btn_men3);
     }
 
-    public void btn2(View v){
-        startActivity(new Intent(this, Pct_2.class));
-    }
-
-    public void btn3(View v){
-        startActivity(new Intent(this, Pct_3.class));
-    }
-
-    public void btn4(View v){
-        startActivity(new Intent(this, Pct_4.class));
-    }
-
-    public void btn4_1(View v){
-        startActivity(new Intent(this, Pct_4_1.class));
+    private void accionButtons(){
+        btn_men1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Dpt_1.class));
+            }
+        });
+        btn_men2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //startActivity(new Intent(getApplicationContext(), Dpt_1.class));
+            }
+        });
+        btn_men3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //startActivity(new Intent(getApplicationContext(), Dpt_1.class));
+            }
+        });
     }
 }

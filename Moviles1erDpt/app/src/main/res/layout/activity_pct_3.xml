@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context=".Practicas.Pct_3">
+    tools:context=".Practicas1.Pct_3">
 
     <TextView
         android:text="Practica 3: Interfaz Noticia"

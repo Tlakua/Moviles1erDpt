@@ -5,7 +5,7 @@
     android:gravity="center_horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Practicas.Pct_2">
+    tools:context=".Practicas1.Pct_2">
 
     <TextView
         android:text="Practica 2: Interfaz1, Entrada y salida de datos"

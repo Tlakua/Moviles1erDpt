@@ -16,11 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Practicas.Pct_1" />
-        <activity android:name=".Practicas.Pct_2" />
-        <activity android:name=".Practicas.Pct_3" />
-        <activity android:name=".Practicas.Pct_4" />
-        <activity android:name=".Practicas.Pct_4_1"></activity>
+        <activity android:name=".Practicas1.Pct_1" />
+        <activity android:name=".Practicas1.Pct_2" />
+        <activity android:name=".Practicas1.Pct_3" />
+        <activity android:name=".Practicas1.Pct_4" />
+        <activity android:name=".Practicas1.Pct_4_1" />
+        <activity android:name=".menus.Dpt_1" />
+        <activity android:name=".menus.Dpt_2"></activity>
     </application>
 
 </manifest>
