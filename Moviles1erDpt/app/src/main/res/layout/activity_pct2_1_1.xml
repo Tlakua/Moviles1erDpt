@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Practicas2.Pct2_1_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 1, Pct1, 2° Parcial" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="DATO"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_pct2_1_1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_pct2_1_1"
+            android:text="Agregar"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnb1_pct2_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar Select"/>
+
+        <Button
+            android:id="@+id/btnbt_pct2_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar todos"/>
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/listV_pct2_1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

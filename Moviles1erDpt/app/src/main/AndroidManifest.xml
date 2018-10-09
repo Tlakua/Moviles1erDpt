@@ -22,7 +22,9 @@
         <activity android:name=".Practicas1.Pct_4" />
         <activity android:name=".Practicas1.Pct_4_1" />
         <activity android:name=".menus.Dpt_1" />
-        <activity android:name=".menus.Dpt_2"></activity>
+        <activity android:name=".menus.Dpt_2" />
+        <activity android:name=".Practicas2.Pct2_1" />
+        <activity android:name=".Practicas2.Pct2_1_1"></activity>
     </application>
 
 </manifest>

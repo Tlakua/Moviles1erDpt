@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.codequark.www.moviles1erdpt.menus.Dpt_1;
+import com.codequark.www.moviles1erdpt.menus.Dpt_2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btn_men2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(getApplicationContext(), Dpt_1.class));
+                startActivity(new Intent(getApplicationContext(), Dpt_2.class));
             }
         });
         btn_men3.setOnClickListener(new View.OnClickListener() {
