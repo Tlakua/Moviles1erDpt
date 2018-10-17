@@ -24,7 +24,9 @@
         <activity android:name=".menus.Dpt_1" />
         <activity android:name=".menus.Dpt_2" />
         <activity android:name=".Practicas2.Pct2_1" />
-        <activity android:name=".Practicas2.Pct2_1_1"></activity>
+        <activity android:name=".Practicas2.Pct2_1_1" />
+        <activity android:name=".Practicas2.Pct2_2" />
+        <activity android:name=".Practicas2.Pct2_3"></activity>
     </application>
 
 </manifest>

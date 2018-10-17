@@ -16,5 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Practica 1.1" />
+    <Button
+        android:id="@+id/btn2_pct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practica 2" />
+    <Button
+        android:id="@+id/btn2_pct3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practica 3" />
 
 </LinearLayout>

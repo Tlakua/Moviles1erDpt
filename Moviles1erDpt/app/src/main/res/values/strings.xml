@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Moviles1erDpt</string>
+    <string name="app_name">Programacion-Moviles</string>
     <string name="pct_1">Practicas del Primer Departamental</string>
     <string name="p1">Pct 1</string>
     <string name="p2">Pct 2</string>
@@ -7,4 +7,68 @@
     <string name="p3.1">Pct 3.1</string>
     <string name="p4">Pct 4</string>
     <string name="p4.1">Pct 4.1</string>
+
+
+<!-- Practica 2 SEGUNDO PARCIAL -->
+    <string name="btn_pct2_2">Otra</string>
+    <string-array name="peli">
+        <item>1.- Batman el Caballero de la Noche</item>
+        <item>2.- Pequeños Guerreros</item>
+        <item>3.- La noche del demonio</item>
+        <item>4.- Star Wars</item>
+        <item>5.- Harry Potter</item>
+        <item>6.- Si decido quedarme</item>
+        <item>7.- Whiplash</item>
+        <item>8.- Madagascar 2</item>
+        <item>9.- Avengers 3</item>
+        <item>10.- Los Juegos del Hambre</item>
+    </string-array>
+    <string-array name="descrip">
+        <item>(The Dark Knight) Es una película estadounidense de 2008, dirigida y co-escrita por Christopher Nolan y basada en uno de los superhéroes de DC Comics, Batman. </item>
+        <item>1998/ 108 minutos/ Joe Dante/ El adolescente Alan Abernathy se verá envuelto en esta contienda y tomará posiciones a favor de los Gorgonitas.</item>
+        <item>Es una película de 2010, dirigida por James Wan y protagonizada por Patrick Wilson y Rose Byrne. Un padre y su hijo son capaces de realizar viajes astrales, ahora almas perversas quieren tomar sus cuerpos cuando ellos no estan</item>
+        <item>Originalmente concebidas por el cineasta estadounidense George Lucas, y posteriormente, producidas y distribuidas por The Walt Disney Company a partir de 2012. La primera película de la serie, Star Wars: Episode IV - A New Hope (1977), </item>
+        <item>Es una serie de novelas fantásticas escrita por la autora británica J. K. Rowling, en la que se describen las aventuras del joven aprendiz de magia y hechicería Harry Potter. En 1999, la productora de cine Warner Bros. adquirió los derechos para adaptar los siete libros a una serie de películas.</item>
+        <item>2014 protagonizada por Chloë Grace Moretz y Jamie Blackley, basada en la novela juvenil homónima de 2009 escrita por Gayle Forman. La película fue dirigida por R.J. Cutler.</item>
+        <item>2014, escrita y dirigida por Damien Chazelle. La película está protagonizada por Miles Teller como el joven baterista de jazz Andrew Neiman que asiste a una de las mejores escuelas de música del país en Nueva York</item>
+        <item>Es una secuela realizada en 2008 de la película Madagascar, que trata sobre la continuación de las aventuras de Alex el león, Gloria la Hipopótamo, Marty la cebra, y Melman la jirafa.</item>
+        <item>2018, basada en el equipo de superhéroes de Marvel Comics los Vengadores, producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures</item>
+        <item>Es el primer libro de la trilogía homónima escrita por la autora estadounidense Suzanne Collins. La editorial Scholastic Press lo publicó el 14 de septiembre de 2008. Se trata de una novela de aventura y ciencia ficción narrada en primera persona desde la perspectiva de Katniss Everdeen, En marzo de 2009, Lionsgate Entertainment adquirió los derechos de autor del libro y comenzó a crear su adaptación fílmica.</item>
+    </string-array>
+
+
+    <!-- Practica 3 SEGUNDO PARCIAL -->
+    <string-array name="pct2_3_pregs">
+        <item>Son dJs de musica electronica:</item>
+        <item>Hecha por Calvin Harris y Disciples</item>
+        <item>Cancion que suena en la ultima escena de Amigos, Musica y Fiestas</item>
+        <item>The Silmarillia es una cancion hecha por:</item>
+        <item>David guetta hizo esta cancion</item>
+        <item>Lullaby es una cancion de:</item>
+    </string-array>
+    <string-array name="pct2_3_respCo">
+        <item>W-and-W, Hardwell, Oliver Healdens</item>
+        <item>How Deep Is Your Love</item>
+        <item>Coles Memorys</item>
+        <item>Blasterjax</item>
+        <item>Just One Last Time</item>
+        <item>FireBeatz</item>
+    </string-array>
+    <string-array name="pct2_3_respInc1">
+        <item>incorrecta 1-1</item>
+        <item>incorrecta 1-2</item>
+        <item>incorrecta 1-3</item>
+        <item>incorrecta 1-4</item>
+        <item>incorrecta 1-5</item>
+        <item>incorrecta 1-6</item>
+    </string-array>
+    <string-array name="pct2_3_respInc2">
+        <item>incorrecta 2-1</item>
+        <item>incorrecta 2-2</item>
+        <item>incorrecta 2-3</item>
+        <item>incorrecta 2-4</item>
+        <item>incorrecta 2-5</item>
+        <item>incorrecta 2-6</item>
+    </string-array>
+
 </resources>
