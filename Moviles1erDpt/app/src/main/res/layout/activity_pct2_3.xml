@@ -59,6 +59,9 @@
 
     <Button
         android:id="@+id/btn_accion_pct2_3"
+        android:background="@drawable/drawable_background_pct2_2_button"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="15dp"
         android:layout_weight="1"
         android:layout_height="0dp"
         android:layout_width="wrap_content"
@@ -66,31 +69,34 @@
 
     <TableRow
         android:layout_gravity="left"
+        android:background="@drawable/drawable_background_pct2_3_sp"
         android:layout_weight="1"
         android:layout_height="0dp"
         android:gravity="center_vertical"
         android:layout_width="match_parent" >
 
         <TextView
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="10dp"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="INTENTO #::"/>
+            android:text="INTENTO #:"/>
 
         <TextView
             android:id="@+id/tv_int_pct2_3"
+            android:textStyle="bold"
             android:layout_marginLeft="5dp"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content" />
 
         <TextView
-            android:layout_marginLeft="35dp"
+            android:layout_marginLeft="45dp"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="ULTIMO PUNTAJE:"/>
 
         <TextView
             android:id="@+id/tv_ultima_pct2_3"
+            android:textStyle="bold"
             android:layout_marginLeft="5dp"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content" />
